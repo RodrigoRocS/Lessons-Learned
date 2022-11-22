@@ -1,12 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0;
+  position: fixed;
+  top: 0;
+  border: 2px solid green;
+  background-color: aqua;
+  margin-left: 400px;
+  padding: 20px;
+}
+
+#titulo {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  color: green;
 }
 
 #minha_foto {
-    width: 300px;
+  width: 300px;
+  border-radius: 25%;
+  border: 2px solid black;
+}
+
+#infos {
+  display: inline-block;
+  background-color: rgb(34, 240, 78);
+}
+
+.lado-esquerdo {
+  width: 50%;
+  float: left;
+  line-height: 25px;
+}
+
+.lado-direito {
+  width: 50%;
+  float: right;
+  line-height: 25px;
+}
+
+#rodape {
+  text-align: center;
 }
